@@ -15,9 +15,8 @@
 	<target name="compile" depends="init" >
 		<javac destdir="build/classes" debug="true" srcdir="src">
 			<classpath refid="compile.classpath"/>
-			 <presetdef name="javac">
+			
     <javac includeantruntime="false" />
-  </presetdef>
 		</javac>
 	</target>
 	
